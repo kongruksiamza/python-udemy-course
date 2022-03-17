@@ -1,6 +1,4 @@
-from cgitb import text
 from tkinter import *
-from tkinter import font
 from googletrans import Translator
 
 
