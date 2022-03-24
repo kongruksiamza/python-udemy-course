@@ -1,0 +1,35 @@
+{% extends "layout.html"%}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 my-2">
+            <h3>แก้ไขข้อมูลธุรกรรม</h3>
+            <form action="/updateStatement" method="post">
+                <input type="hidden" value="{{statement.id}}" name="id"/>
+                <div class="form-group">
+                    <label for="date">วันที่บันทึกข้อมูล</label>
+                    <input type="date" name="date" class="form-control" value="{{statement.date}}">
+                </div>
+                <div class="form-group">
+                    <label for="name">ชื่อธุรกรรม</label>
+                    <input type="text" name="name" class="form-control" value="{{statement.name}}">
+                </div>
+                <div class="form-group">
+                    <label for="amount">จำนวนเงิน</label>
+                    <input type="text" name="amount" class="form-control" value="{{statement.amount}}">
+                </div>
+                <div class="form-group">
+                    <label for="category">หมวดหมู่</label>
+                    <select name="category" class="form-control">
+                        <option value="รายรับ">รายรับ</option>
+                        <option value="รายจ่าย">รายจ่าย</option>
+                    </select>
+                </div>
+                <input type="submit" value="อัพเดตธุรกรรม" class="btn btn-primary my-2">
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

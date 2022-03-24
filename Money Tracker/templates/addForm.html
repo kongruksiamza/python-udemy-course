@@ -1,0 +1,34 @@
+{% extends "layout.html"%}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 my-2">
+            <h3>เพิ่มข้อมูลธุรกรรม</h3>
+            <form action="/addStatement" method="post">
+                <div class="form-group">
+                    <label for="date">วันที่บันทึกข้อมูล</label>
+                    <input type="date" name="date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="name">ชื่อธุรกรรม</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="amount">จำนวนเงิน</label>
+                    <input type="text" name="amount" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="category">หมวดหมู่</label>
+                    <select name="category" class="form-control">
+                        <option value="รายรับ">รายรับ</option>
+                        <option value="รายจ่าย">รายจ่าย</option>
+                    </select>
+                </div>
+                <input type="submit" value="เพิ่มธุรกรรม" class="btn btn-success my-2">
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
