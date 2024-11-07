@@ -1,7 +1,7 @@
 # 📖 เอกสารประกอบการสอน
-- [Build Real-world Project](https://mega.nz/file/nHhFmBZA#lwOp5D5MG1BYwGVhoShbtlZ5zuqfsHpOMHGT8deJhnM)
-- [Django Framework Blogging System](https://mega.nz/file/fLgzTQ5K#xs8z4tuRFCk5qQSGa0-XfVFMjnc-_-9jwCec0Y8I668)
-- [Tkinter](https://mega.nz/file/zXxXHLbQ#U17wDhe8j7FqQ1zx1HD1SdPAMG3Xl-m8_AuA8Ndn_vI)
+- [Build Real-world Project](https://github.com/kongruksiamza/python-udemy-course/blob/c7ed4326af82c5771c2f5e7e31c9eb5fb1aa3b14/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%20Python%20(Real-World)/Python%20Build%20Real-World%20Project.pdf)
+- [Django Framework Blogging System](https://github.com/kongruksiamza/python-udemy-course/blob/c7ed4326af82c5771c2f5e7e31c9eb5fb1aa3b14/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%20Python%20(Real-World)/Django%20Framework%20Blogging%20System.pdf)
+- [Tkinter](https://github.com/kongruksiamza/python-udemy-course/blob/c7ed4326af82c5771c2f5e7e31c9eb5fb1aa3b14/%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%20Python%20(Real-World)/Tkinter%20Basic.pdf)
 
 ## 🎓 คอร์สเรียนที่น่าสนใจ
 - [สร้างแอพพลิเคชั่นด้วยภาษา Python (Real-World Projects)](https://www.udemy.com/course/python-real-world-projects/?referralCode=4D6784B6C4CF2CBB1892)
